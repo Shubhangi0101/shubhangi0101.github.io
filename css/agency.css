@@ -537,7 +537,7 @@ font-weight: 300;}
 font-weight: 300;
 color: #353535;
 }
-.toptext{margin-top: 87px;
+.toptext{padding-top: 87px;
 }
 .text1{margin-top: 67px;
 margin-left: 137px;
@@ -559,3 +559,33 @@ color: #938F85;
 text-align: left;
 font-size: 16px;
 font-weight: 300;}
+.picture{margin-top: 40px;}
+.miniheading{
+  margin-top: 25px;
+  color: #938F85;
+  text-align: left;
+  font-weight: 300;
+  font-size: 20px;
+}
+.miniheadcontent{margin-top: 18px;
+color: #938F85;
+text-align: left;
+font-size: 16px;
+font-weight: 300;}
+.imgcaption{margin-top: 10px;
+color: #938F85;
+text-align: center;
+font-size: 14px;
+font-weight: 300;
+font-style: italic;}
+.sec{background-color: #F8F9F6;
+  margin-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 30px;
+}
+#lriproto{margin-bottom: 80px;}
+.secheading{padding-top: 30px;
+color: #938F85;
+font-size: 35px;
+font-weight: 300;
+text-align: left;}
