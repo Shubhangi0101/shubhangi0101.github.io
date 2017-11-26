@@ -16,7 +16,9 @@ p {
 a {
   color: #fed136; }
   a:hover {
-    color: #fec503; }
+    color: #fec503;
+    text-decoration: none;
+   }
 
 .text-primary {
   color: #fed136 !important; }
