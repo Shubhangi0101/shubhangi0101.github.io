@@ -618,3 +618,27 @@ margin-bottom: 60px;
   height: 100%;
 }
 #smallbg{background-color: #f8f9f6;}
+#upperboxmsr{background-color: #F9FCF8;}
+#toptextmsr{background-color: #F9FCF8;}
+.unpaddedcontent{background-color: #F4F8F0;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;}
+.italy{
+  font-style: italic;
+}
+.source{
+  margin-top: 10px;
+  color: #938F85;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 300;
+}
+#toptextrail{
+  background-color: #F8F7F3;
+}
+#upperboxrail{background-color: #f8f7f3;}
+.imagecontainer{
+  width: 471px;
+  margin: 0 auto;
+}
