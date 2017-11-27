@@ -4,7 +4,10 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 @import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
-
+@font-face {
+  font-family: Spartan;
+  src: url(LeagueSpartan-Bold.otf);
+}
 
 body {
   overflow-x: hidden;
@@ -643,9 +646,46 @@ margin-top: 50px;}
 #toptextrail{
   background-color: #F8F7F3;
 }
+#toptextindeate{
+  background-color: #303633;
+}
 #upperboxrail{background-color: #f8f7f3;}
 .imagecontainer{
   width: 471px;
   margin: 0 auto;
 }
+#upperboxindeate{background-color: #303633;}
+.imagecontainer{
+  width: 471px;
+  margin: 0 auto;
+}
 .getinthemiddle{text-align: center;}
+#indeatetitle{color: #ABABAB;}
+.indeatenumber{
+  font-size: 222px;
+  display: inline-block;
+  font-family: League Spartan;
+  font-weight: 300;
+  margin-right: 80px;
+  color: #6F7471;
+  line-height: 250px;
+  width: 170px;
+
+}
+.indeatetext{
+  display: inline-block;
+  font-family: Lato;
+  font-weight: 300;
+  text-align: left;
+  font-size: 14px;
+  color: #818479;
+  width: 423px;
+}
+.indeatebadadiv{
+  text-align: center;
+  /*margin-top: 30px;*/
+}
+.bigfont{
+  font-size: 18px;
+  color: #F15946;
+}
