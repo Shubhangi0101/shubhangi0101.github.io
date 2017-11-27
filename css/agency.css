@@ -8,7 +8,14 @@
   font-family: Spartan;
   src: url(LeagueSpartan-Bold.otf);
 }
+@font-face {
+    font-family: 'league_spartanregular';
+    src: url('leaguespartan-bold-webfont.woff2') format('woff2'),
+         url('leaguespartan-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 body {
   overflow-x: hidden;
   font-family: 'Lato', sans-serif; }
@@ -688,4 +695,39 @@ margin-top: 50px;}
 .bigfont{
   font-size: 18px;
   color: #F15946;
+}
+.roundedboxindeate{
+  margin-top: 30px;
+  background-color: #FFEE58;
+  border-radius: 90px;
+  padding: 40px;
+  color: #303633;
+}
+.roundedboxindeatetext{
+  color: #F15946;
+  font-size: 20px;
+  text-align: right;
+  margin-top: 10px;
+}
+.indeatelogo{
+background-color: #303633;
+padding-top: 80px;
+padding-left: 30px;
+padding-right: 30px;
+margin-top: 50px;
+}
+.indeatlogotext{
+  color: #DFDFDF;
+  padding-bottom: 80px;
+  font-style: italic;
+  text-align: center;
+  font-size: 16px;
+}
+#endindeate{
+  background-color: #FFEE58;
+  margin-top: 50px;
+}
+#endindeatetext{
+  margin-top: 0px;
+  color: #303633;
 }
