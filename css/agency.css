@@ -653,10 +653,15 @@ margin-top: 50px;}
 #toptextrail{
   background-color: #F8F7F3;
 }
+#toptextcal{
+  background-color: #F7F4F3;
+}
 #toptextindeate{
   background-color: #303633;
 }
 #upperboxrail{background-color: #f8f7f3;}
+#upperboxcal{background-color: #F7F4F3;}
+#upperboxrail{background-color: #F7F4F3;}
 .imagecontainer{
   width: 471px;
   margin: 0 auto;
@@ -730,4 +735,19 @@ margin-top: 50px;
 #endindeatetext{
   margin-top: 0px;
   color: #303633;
+}
+.calbg{
+  background-color: #333745;
+}
+.calcap{
+  margin-top: 10px;
+  color: #938F85;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0 5px;
+}
+.caltext{
+  color: #BEBEBE;
 }
