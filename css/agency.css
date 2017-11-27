@@ -626,6 +626,10 @@ margin-bottom: 60px;
 padding-top: 50px;
 padding-bottom: 50px;
 margin-top: 50px;}
+.unpaddedcontentrail{background-color: #f8f7f3;
+padding-top: 50px;
+padding-bottom: 50px;
+margin-top: 50px;}
 .italy{
   font-style: italic;
 }
@@ -644,3 +648,4 @@ margin-top: 50px;}
   width: 471px;
   margin: 0 auto;
 }
+.getinthemiddle{text-align: center;}
