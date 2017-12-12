@@ -81,8 +81,15 @@
 //                        $('#portfolioModal5').modal('hide');
 //                    }
 //                });
+// List of projects' hash values to be displayed in URL on clicking
+projects = [null, "FirstProject", "SecondProject", "ThirdProject", "FourthProject", "FifthProject", "SixthProject", "SeventhProject", "EighthProject"];
+
 function clickProject(i) {
-	window.location.hash = "project"+i.toString();
+    history.pushState(null, null, "#"+projects[parseInt(i)]);
+}
+
+function closeProject (e) {
+    history.pushState("", document.title, window.location.pathname + window.location.search);
 }
 
 $('#portfolioModal1').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
@@ -91,11 +98,31 @@ $('#portfolioModal3').on('show.bs.modal', function(e) { clickProject(this.id.sli
 $('#portfolioModal4').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal5').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal6').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal7').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal8').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 
-$(window).on('hashchange', function (event) {
-	for (i=1;i<=6;i++) {
-   		if(window.location.hash != "#project"+i.toString()) {
-            $('#portfolioModal'+i.toString()).modal('hide');
+
+$('#portfolioModal1').on('hide.bs.modal', closeProject);
+$('#portfolioModal2').on('hide.bs.modal', closeProject);
+$('#portfolioModal3').on('hide.bs.modal', closeProject);
+$('#portfolioModal4').on('hide.bs.modal', closeProject);
+$('#portfolioModal5').on('hide.bs.modal', closeProject);
+$('#portfolioModal6').on('hide.bs.modal', closeProject);
+$('#portfolioModal7').on('hide.bs.modal', closeProject);
+$('#portfolioModal8').on('hide.bs.modal', closeProject);
+
+
+
+$(window).on('hashchange', function (e) {
+
+	for (i=1;i<projects.length;i++) {
+   		if(window.location.hash == projects[i]) {
+      		$('#portfolioModal'+i.toString()).modal('show');
+      		
+        }
+        else {
+        	$('#portfolioModal'+i.toString()).modal('hide');
+
         }
 	}
 });
