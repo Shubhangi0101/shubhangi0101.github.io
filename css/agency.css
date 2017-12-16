@@ -824,11 +824,6 @@ margin-top: 50px;
 #videoupar{
   background-color: #ffffff;
 }
-
-.me{
-  margin: 0 10px;
-}
-
 @media(max-width: 760px){
   .myImage{
     margin-right: 40px;
@@ -839,7 +834,7 @@ margin-top: 50px;
     font-size: 40px;
   }
   }
-@media(max-width: 722px){
+@media(max-width: 740px){
   .myImage{
     margin-top: 100px;
   }
