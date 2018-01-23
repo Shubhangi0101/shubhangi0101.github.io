@@ -854,7 +854,19 @@ margin-top: 50px;
     .miniheadcontent{font-size: 14px;}
   }
 #videoupperpad{padding-top: 40px;}
-#Aboutme{text-align: left;
-display: inline-block;}
+#Aboutme{
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+}
 #aboutmeimg{text-align: left;
 display: inline-block;}
+
+.img-container{
+  display: inline-block;
+  width: 40%;
+}
+
+#aboutme{
+  vertical-align: unset;  
+}
