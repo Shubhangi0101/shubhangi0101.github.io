@@ -857,16 +857,17 @@ margin-top: 50px;
 #Aboutme{
   text-align: left;
   display: inline-block;
-  width: 50%;
+  width: 67%;
 }
 #aboutmeimg{text-align: left;
 display: inline-block;}
 
 .img-container{
   display: inline-block;
-  width: 40%;
 }
 
 #aboutme{
-  vertical-align: unset;  
+  vertical-align: unset;
 }
+.myaboutImage{margin-right: 88px;
+max-width: 100%;}
