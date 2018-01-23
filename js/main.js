@@ -82,7 +82,7 @@
 //                    }
 //                });
 // List of projects' hash values to be displayed in URL on clicking
-projects = [null, "FirstProject", "SecondProject", "ThirdProject", "FourthProject", "FifthProject", "SixthProject", "SeventhProject", "EighthProject"];
+projects = [null, "FirstProject", "SecondProject", "ThirdProject", "FourthProject", "FifthProject", "SixthProject", "SeventhProject", "EighthProject", "NinthProject"];
 
 function clickProject(i) {
     history.pushState(null, null, "#"+projects[parseInt(i)]);
@@ -100,7 +100,7 @@ $('#portfolioModal5').on('show.bs.modal', function(e) { clickProject(this.id.sli
 $('#portfolioModal6').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal7').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal8').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
-
+$('#portfolioModal9').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 
 $('#portfolioModal1').on('hide.bs.modal', closeProject);
 $('#portfolioModal2').on('hide.bs.modal', closeProject);
@@ -110,7 +110,7 @@ $('#portfolioModal5').on('hide.bs.modal', closeProject);
 $('#portfolioModal6').on('hide.bs.modal', closeProject);
 $('#portfolioModal7').on('hide.bs.modal', closeProject);
 $('#portfolioModal8').on('hide.bs.modal', closeProject);
-
+$('#portfolioModal9').on('hide.bs.modal', closeProject);
 
 
 $(window).on('hashchange', function (e) {
@@ -118,7 +118,7 @@ $(window).on('hashchange', function (e) {
 	for (i=1;i<projects.length;i++) {
    		if(window.location.hash == projects[i]) {
       		$('#portfolioModal'+i.toString()).modal('show');
-      		
+
         }
         else {
         	$('#portfolioModal'+i.toString()).modal('hide');
