@@ -25,13 +25,14 @@
 }
 body {
   overflow-x: hidden;
-  font-family: 'Lato', sans-serif; }
+  font-family: 'Avenir'}
 
 p {
   line-height: 1.75; }
 
 a {
   color: #fed136; }
+
   a:hover {
     color: #fec503;
     text-decoration: none;
@@ -571,6 +572,7 @@ font-family: "Montserrat";
 margin-right: 137px;*/
 color: #333333;
 font-family: Avenir;
+font-size: 20px;
 }
 .heading{margin-top: 80px;
 color: #333333;
@@ -588,38 +590,41 @@ padding-right: 137px;*/
 .content{margin-top: 30px;
 color: #333333;
 text-align: left;
-font-size: 16px;
-font-weight: 300;}
+font-size: 20px;
+font-weight: 300;
+font-family: Avenir;}
 .picture{margin-top: 40px;}
 .miniheading{
   margin-top: 25px;
   color: #333333;
   text-align: left;
-  font-weight: 300;
+  font-weight: bolder;
   font-size: 20px;
 }
 .miniheadcontent{margin-top: 18px;
 color: #333333;
 text-align: left;
-font-size: 16px;
-font-weight: 300;}
-.imgcaption{margin-top: 10px;
+font-size: 20px;
+font-weight: 300;
+font-family: Avenir;}
+.imgcaption{margin-top: 15px;
 color: #333333;
 text-align: center;
 font-size: 14px;
 font-weight: 300;
-font-style: italic;}
-.sec{background-color: #F8F9F6;
+font-style: italic;
+font-family: Avenir;}
+.sec{
   margin-top: 80px;
   padding-bottom: 80px;
   margin-bottom: 30px;
 }
-#lriproto{margin-bottom: 80px;}
+#lriproto{margin-bottom: 80px; color:#A4303F; }
 .secheading{padding-top: 30px;
-color: #333333;
-font-size: 35px;
+font-size: 30px;
 font-weight: 300;
-text-align: left;}
+text-align: left;
+font-family: "Montserrat";}
 .upperbox{height: 50px;
 }
 .video-container{
@@ -900,4 +905,7 @@ max-width: 100%;}
 }
 .str{
   font-weight: bolder;
+}
+#lriheading{
+color: #A4303F;
 }
