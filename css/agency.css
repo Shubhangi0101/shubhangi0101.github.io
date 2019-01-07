@@ -30,8 +30,8 @@ body {
 p {
   line-height: 1.75; }
 
-a {
-  color: #fed136; }
+ a {
+  color: #979797; }
 
   a:hover {
     color: #fec503;
@@ -171,9 +171,15 @@ header.masthead {
   -o-background-size: cover;
   background-size: cover; }
   header.masthead .intro-text {
-    padding-top: 270px;
-    padding-bottom: 285px;
-  display: inline-block;}
+    text-align: left;
+    width: 42%;
+    height: 400px;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    margin-right: 20px;
+ 
+    padding-top: 50px;
+   }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       /*font-style: italic;*/
@@ -207,63 +213,76 @@ header.masthead {
 
 .service-heading {
   margin: 15px 0;
-  text-transform: none; }
+  text-transform: none; 
+}
 
 #portfolio .portfolio-item {
   right: 0;
-  margin: 0 0 15px; }
-  #portfolio .portfolio-item .portfolio-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: white; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-          margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-          margin: 0; }
-  #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: #fff; }
-    #portfolio .portfolio-item .portfolio-caption h4 {
-      margin: 0;
-      text-transform: none; }
-    #portfolio .portfolio-item .portfolio-caption p {
-      font-size: 16px;
-      font-style: italic;
-      margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  margin: 0 0 15px; 
+}
+#portfolio .portfolio-item .portfolio-link {
+  position: relative;
+  display: block;
+  max-width: 500px;
+  margin: 0 auto;
+  cursor: pointer; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(0, 20, 24, 0.9); }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  height: 20px;
+  margin-top: -12px;
+  text-align: center;
+  color: white; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px; }
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3 {
+  position: absolute;
+  font-size: 20px;
+  left: 50px;
+  right: 50px;
+  
+  color: #ffffff;
+  letter-spacing: 3px;
+  font-family: Avenir;
+  line-height: 30px;
+  transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+        }
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff; }
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none; }
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 #portfolio * {
   z-index: 2; }
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
-    margin: 0 0 30px; } }
+    margin: 0 0 50px; } }
 
 .portfolio-modal {
   padding-right: 0px !important; }
@@ -542,11 +561,20 @@ ul.social-buttons {
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
       background-color: #fed136; }
 img.myImage{
-  margin-right: 90px;
+ 
+vertical-align: middle;
   max-width: 100%;
+  padding-top: 20px;
+
 }
-header.masthead .centreContent{
+header.masthead .cover{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
+
+  height: 100%;
+  width: 100%
 }
 .underline{
   border-bottom: 4px #fed136 solid;
@@ -572,11 +600,11 @@ font-family: "Montserrat";
 margin-right: 137px;*/
 color: #333333;
 font-family: Avenir;
-font-size: 20px;
+font-size: 18px;
 }
 .heading{margin-top: 80px;
 color: #333333;
-font-size: 30px;
+font-size: 20px;
 font-weight: 300;
 text-align: left;
 font-family: "Montserrat";
@@ -590,7 +618,7 @@ padding-right: 137px;*/
 .content{margin-top: 30px;
 color: #333333;
 text-align: left;
-font-size: 20px;
+font-size: 16px;
 font-weight: 300;
 font-family: Avenir;}
 .picture{margin-top: 40px;}
@@ -599,7 +627,7 @@ font-family: Avenir;}
   color: #333333;
   text-align: left;
   font-weight: bolder;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 .miniheadcontent{margin-top: 18px;
@@ -847,6 +875,12 @@ margin-top: 50px;
   .myImage{
     margin-top: 100px;
   }
+
+
+
+
+
+
   header.masthead .intro-text{
     padding-top: 80px;
   }
@@ -938,7 +972,7 @@ max-width: 100%;}
 }
 
 .ssline{
-  background-color: #A6DAD9;
+  background-color: #F6BECB;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   border-top-left-radius: 4px;
@@ -972,8 +1006,16 @@ color: #3A6EA5;
   color: #B49594;
 }
 #ssheading{
-  color: #2CA6A4;
+  color: #B8336A;
 }
 #pub{
   padding-top: 50px;
+}
+.coverimage{
+  width: 40%;
+  height: 400px;
+  text-align: center;
+  margin-top: 180px;
+    margin-bottom: 150px;
+    margin-right: 20px;
 }
