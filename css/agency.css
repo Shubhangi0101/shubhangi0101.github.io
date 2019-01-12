@@ -984,6 +984,20 @@ max-width: 100%;}
   width: 30px;
 }
 
+.waline{
+  background-color: #88BB92;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: block;
+  height: 3px;
+  line-height: 28px;
+  top: 60px;
+  width: 30px;
+}
+
+
 
 }
 .str{
@@ -1008,6 +1022,9 @@ color: #3A6EA5;
 #ssheading{
   color: #B8336A;
 }
+#waheading{
+  color: #63B995;
+}
 #pub{
   padding-top: 50px;
 }
@@ -1019,3 +1036,36 @@ color: #3A6EA5;
     margin-bottom: 150px;
     margin-right: 20px;
 }
+
+
+#factors {
+  font-family: 'Avenir';
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 4px 4px 14px #7c7c7c;
+}
+
+#factors td, #factors th {
+  color: #333333;
+  padding: 15px;
+  font-size: 14px;
+}
+
+#factors tr:nth-child(even){background-color: #f2f2f2;}
+
+
+#factors th {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  background-color: #88BB92;
+  color: white;
+  
+
+
+
+
+
+
+
+
