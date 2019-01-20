@@ -297,7 +297,15 @@ header.masthead {
     width: 90% !important;
     padding-left: 10%; } 
   }
+#landingpage .covertextsub{
+  font-size: 20px; padding-top: 28px; font-family: 'Avenir'; color: #001418; margin-bottom: 40px; line-height: 35px;
+} 
 
+ @media screen and (max-width: 767px) {
+  #landingpage .covertextsub {
+    font-size: 15px;
+    line-height: 25px; } 
+  }
   
 
 .portfolio-modal {
