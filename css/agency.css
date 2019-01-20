@@ -284,6 +284,22 @@ header.masthead {
   #portfolio .portfolio-item {
     margin: 0 0 50px; } }
 
+    #landingpage{
+    padding-top: 15%; 
+    padding-left: 20%; 
+    width: 72%;
+  }
+
+    @media screen and (max-width: 767px) {
+  #landingpage {
+    padding-top: 150px; 
+    max-width: 100%;
+    width: 90% !important;
+    padding-left: 10%; } 
+  }
+
+  
+
 .portfolio-modal {
   padding-right: 0px !important; }
   .portfolio-modal .modal-dialog {
@@ -849,7 +865,7 @@ margin-top: 50px;
 }
 
 
-@media(max-width: 768px) {
+(max-width: 768px) {
     .photobody {
         padding: 0;
     }
