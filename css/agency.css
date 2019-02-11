@@ -667,12 +667,12 @@ font-weight: 300;
 font-family: Avenir;}
 .picture{margin-top: 40px;}
 .miniheading{
-  margin-top: 25px;
+  margin-top: 20px;
   color: #333333;
   text-align: left;
-  font-weight: bolder;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
+  font-family: "Montserrat";
 }
 .miniheadcontent{margin-top: 18px;
 color: #333333;
