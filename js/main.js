@@ -101,9 +101,9 @@ $('#portfolioModal6').on('show.bs.modal', function(e) { clickProject(this.id.sli
 $('#portfolioModal7').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal8').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 $('#portfolioModal9').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
-$('#portfolioModal9').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
-$('#portfolioModal9').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
-$('#portfolioModal9').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal10').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal11').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
+$('#portfolioModal12').on('show.bs.modal', function(e) { clickProject(this.id.slice(14)); });
 
 
 $('#portfolioModal1').on('hide.bs.modal', closeProject);
@@ -115,9 +115,9 @@ $('#portfolioModal6').on('hide.bs.modal', closeProject);
 $('#portfolioModal7').on('hide.bs.modal', closeProject);
 $('#portfolioModal8').on('hide.bs.modal', closeProject);
 $('#portfolioModal9').on('hide.bs.modal', closeProject);
-$('#portfolioModal9').on('hide.bs.modal', closeProject);
-$('#portfolioModal9').on('hide.bs.modal', closeProject);
-$('#portfolioModal9').on('hide.bs.modal', closeProject);
+$('#portfolioModal10').on('hide.bs.modal', closeProject);
+$('#portfolioModal11').on('hide.bs.modal', closeProject);
+$('#portfolioModal12').on('hide.bs.modal', closeProject);
 
 
 $(window).on('hashchange', function (e) {
