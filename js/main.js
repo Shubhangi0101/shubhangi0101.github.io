@@ -82,7 +82,7 @@
 //                    }
 //                });
 // List of projects' hash values to be displayed in URL on clicking
-projects = [null, "FirstProject", "SecondProject", "ThirdProject", "FourthProject", "FifthProject", "SixthProject", "SeventhProject", "EighthProject", "NinthProject" , "TenthProject" , "EleventhProject" , "TwelvethProject"];
+projects = [null, "FirstProject", "SecondProject", "ThirdProject", "FourthProject", "FifthProject", "SixthProject", "SeventhProject", "EighthProject", "NinthProject" , "SmartScheduler" , "WhatsApp" , "schlotzskys"];
 
 function clickProject(i) {
     history.pushState(null, null, "#"+projects[parseInt(i)]);
